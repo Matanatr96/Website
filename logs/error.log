@@ -1,0 +1,433 @@
+2016-10-03 00:30:35 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /matanatr/
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\View.php(967): Cake\View\View->_evaluate('D:\\wamp64\\www\\m...', Array)
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_render('D:\\wamp64\\www\\m...')
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(128): Cake\Controller\Controller->render()
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2016-10-11 01:04:54 Error: [Error] Call to undefined function App\Controller\printr()
+Request URL: /matanatr/submit
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->formSubmit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-10-11 01:08:02 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+include - APP/Template\Home\index.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1008
+Cake\View\View::_render() - CORE\src\View\View.php, line 967
+Cake\View\View::render() - CORE\src\View\View.php, line 591
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 128
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-11 01:09:04 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+include - APP/Template\Home\index.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1008
+Cake\View\View::_render() - CORE\src\View\View.php, line 967
+Cake\View\View::render() - CORE\src\View\View.php, line 591
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 128
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-11 01:10:47 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+include - APP/Template\Home\index.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1008
+Cake\View\View::_render() - CORE\src\View\View.php, line 967
+Cake\View\View::render() - CORE\src\View\View.php, line 591
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 128
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-11 01:14:00 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+include - APP/Template\Home\index.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1008
+Cake\View\View::_render() - CORE\src\View\View.php, line 967
+Cake\View\View::render() - CORE\src\View\View.php, line 591
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 128
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-10-11 01:25:10 Warning: Warning (512): Method Cake\View\Helper\HtmlHelper::url does not exist in [D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\Helper.php, line 139]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+Cake\View\Helper::__call() - CORE\src\View\Helper.php, line 139
+include - APP/Template\Home\index.ctp, line 17
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1008
+Cake\View\View::_render() - CORE\src\View\View.php, line 967
+Cake\View\View::render() - CORE\src\View\View.php, line 591
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 128
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 96
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-11-01 01:37:21 Error: [Error] Class 'App\Controller\TableRegistry' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:38:15 Error: [Error] Class 'App\Model\Entity\Log\Log' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:38:31 Error: [Error] Class 'App\Model\Entity\Log' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:38:40 Error: [Error] Class 'App\Model\Entity\Log' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:41:29 Error: [Error] Class 'App\Model\Entity\Log' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:42:45 Error: [Error] Class 'App\Model\Entity\Log' not found
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:43:25 Error: [Error] Call to undefined method App\Model\Entity\Log::name()
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 01:59:17 Error: [Error] Call to undefined function App\Controller\saveLog()
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/matanatr/submit
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 02:00:07 Error: [Error] Call to undefined function App\Controller\saveLog()
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/
+Stack Trace:
+#0 [internal function]: App\Controller\HomeController->submit()
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2016-11-01 02:00:47 Warning: Headers already sent in D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Debugger.php:753
+2016-11-01 02:00:47 Error: [RuntimeException] Unable to emit response; headers already sent
+Request URL: /matanatr/matanatr/submit
+Referer URL: http://localhost/matanatr/matanatr/submit
+Stack Trace:
+#0 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(107): Zend\Diactoros\Response\SapiStreamEmitter->emit(Object(Zend\Diactoros\Response))
+#1 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->emit(Object(Zend\Diactoros\Response))
+#2 {main}
+
+
+2016-11-09 01:22:42 Warning: Warning (2): Declaration of App\Controller\HomeController::log($name, $age) should be compatible with Cake\Controller\Controller::log($msg, $level = Psr\Log\LogLevel::ERROR, $context = Array) in [D:\wamp64\www\matanatr\src\Controller\HomeController.php, line 19]
+Request URL: /matanatr/
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 146
+include - APP/Controller\HomeController.php, line 19
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 414
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 152
+Cake\Core\App::className() - CORE\src\Core\App.php, line 64
+Cake\Http\ControllerFactory::create() - CORE\src\Http\ControllerFactory.php, line 70
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 52
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 82
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-12-09 03:27:56 Error: [TypeError] Argument 2 passed to Cake\View\Helper\HtmlHelper::css() must be of the type array, null given, called in D:\wamp64\www\matanatr\src\Template\Home\about_me.ctp on line 4
+Request URL: /matanatr/matanatr/aboutme
+Stack Trace:
+#0 D:\wamp64\www\matanatr\src\Template\Home\about_me.ctp(4): Cake\View\Helper\HtmlHelper->css('matanatr.css', NULL, Array)
+#1 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\View.php(1008): include('D:\\wamp64\\www\\m...')
+#2 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\View.php(967): Cake\View\View->_evaluate('D:\\wamp64\\www\\m...', Array)
+#3 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_render('D:\\wamp64\\www\\m...')
+#4 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#5 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(128): Cake\Controller\Controller->render()
+#6 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\HomeController))
+#7 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(52): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 D:\wamp64\www\matanatr\vendor\cakephp\cakephp\src\Http\Server.php(82): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 D:\wamp64\www\matanatr\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
