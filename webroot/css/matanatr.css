@@ -106,15 +106,26 @@
 }
 
 
-#name {
+.size1 {
     font-size: 50px;
     line-height: 50px;
+}
+
+.size2 {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.size3 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.grey {
     color: #494949;
 }
 
-#school {
-    font-size: 25px;
-    line-height: 25px;
+.lightGrey {
     color: #696969;
 }
 
@@ -141,10 +152,6 @@
     font-size: 18px;
     line-height: 18px;
     margin-top: 5px;
-}
-
-#coursework {
-    height:400px;
 }
 
 #cw1, #cw2 {
