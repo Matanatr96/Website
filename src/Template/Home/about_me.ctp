@@ -33,13 +33,13 @@
                     <div align="center">
                         <hr id="hr1" noshade="true" color="#DDDDDD">
                     </div>
-                    <p id="about" style="width:80%;" class="moveRight marbot"><b>About me:</b> I am a rising junior at georgia
+                    <p id="about" style="width:80%;" class="push-2 marbot"><b>About me:</b> I am a rising junior at georgia
                         tech looking to export my potential into a formidable company!</p>
-                    <div id="factDiv">
-                        <p id="facts" class="moveRight marbot"><b>Two Truths and a Lie:</b></p>
-                        <p class="marbot moveRight martop">1. I am a black belt in tae-kwon-do</p>
-                        <p class="marbot moveRight martop">2. I have been to 33 Different states in the country </p>
-                        <p class="marbot moveRight martop">3. I can speak 3.5 languages.</p>
+                    <div class="push-2">
+                        <p id="facts" class="marbot"><b>Two Truths and a Lie:</b></p>
+                        <p class="marbot martop">1. I am a black belt in tae-kwon-do</p>
+                        <p class="marbot martop">2. I have been to 33 Different states in the country </p>
+                        <p class="marbot martop">3. I can speak 3.5 languages.</p>
                     </div>
                     <div align="center">
                         <hr id="hr1" noshade="true" color="#DDDDDD">
@@ -77,7 +77,17 @@
                     </div>
                 </div>
 
+                <div class="container top25">
+                    <div>
+                        <p id="ed1" class="marbot push-1">Education</p>
+                        <p id="ed2" class="top5 marbot push-2">Georgia Institute of Technology</p>
+                        <p class="marbot push-2"><i>Bachelor's Degree, Major: Computer Science, Minor: Applied Mathematics</i></p>
+                        <p class="marbot push-2"><b>Core GPA:</b> 3.69</p>
+                        <p class="marbot push-2"><b>Minor GPA:</b> 3.56</p>
+                    </div>
+                </div>
 
+                <?= $this->element("coursework"); ?>
             </div>
 
 
