@@ -11,12 +11,11 @@
     </head>
 
     <body >
-        <?= $this->element('navigation'); ?>
 
-        <div class="container">
-            <hr class="hr" noshade="true" color="#DDDDDD"/>
+        <div class="container" style="margin-top: 25%">
+            <hr class="hr" noshade="true" color="#73C2FB"/>
             <div class="container centered-text">
-                <p>Hi! My name is <span style="color: #009000">Anush Mattapalli</span> <br/>
+                <p class="size2">Hi! My name is <span style="color: #009000">Anush Mattapalli</span> <br/>
                     I'm a (Person who messes with a lot of different things)<br/>
                     I help (something or someone)<br/><br/>
                     When im not
@@ -34,15 +33,15 @@
                     <br/><br/>
                 </p>
 
-                <p>Want to work together? I'd love to hear from you</p>
+                <p class="size1 ">Want to work together? I'd love to hear from you</p>
 
-                <div class = "container">
-                    <li><a class = "link" href="https://www.google.com/ ">Email</a></li>
-                    <li><a class = "link" href="https://www.facebook.com/anush.mattapalli?ref=bookmarks">Facebook</a></li>
+                <div class = "container listStyle size1">
+                    <p><a class = "link" href="https://www.google.com/ ">Email</a>&nbsp &nbsp &nbsp
+                        <a class = "link" href="https://www.facebook.com/anush.mattapalli?ref=bookmarks">Facebook</a></p>
                 </div>
             </div>
 
-            <hr class="hr" noshade="true"/>
+            <hr class="hr" noshade="true" color="#73C2FB"/>
             <div class="container" id = "moreContainer">
                 <p><a class="link accent" href="matanatr/aboutme">Learn More</a></p>
             </div>

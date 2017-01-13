@@ -1,7 +1,6 @@
 .hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-color: #b0aaFe;
 }
 
 @media screen and (min-width:768px){
@@ -35,9 +34,7 @@
 }
 
 
-.marbot {
-    margin-bottom: 0px;
-}
+
 
 
 
@@ -98,59 +95,69 @@
 
 
 
-.size1 {
+.size6 {
     font-size: 50px;
     line-height: 50px;
 }
 
-.size2 {
+.size5 {
     font-size: 40px;
     line-height: 40px;
 }
 
-.size3 {
+.size4 {
     font-size: 33px;
     line-height: 33px;
 }
 
-.size4 {
+.size3 {
     font-size: 25px;
     line-height: 25px;
 }
 
-.size5 {
+.size2 {
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.size1 {
     font-size: 18px;
     line-height: 18px;
 }
 
-.martop1{
+.size0 {
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+.top5{
     margin-top: 25px;
 }
 
-.martop2{
+.top4{
     margin-top: 15px;
 }
 
-.martop3{
+top3{
     margin-top: 10px;
 }
 
-.martop4{
+.top2{
     margin-top: 5px;
 }
 
-.martop5 {
+.top1 {
     margin-top: 3px;
 }
 
-
-.grey {
-    color: #494949;
+.top0 {
+    margin-top: 0px;
 }
 
-.lightGrey {
-    color: #696969;
+.marbot {
+    margin-bottom: 0px;
 }
+
 
 #hr1 {
     width: 90%;
@@ -183,4 +190,13 @@
 
 .cur {
     color: #0047ab;
+}
+
+
+.grey {
+    color: #494949;
+}
+
+.lightGrey {
+    color: #696969;
 }

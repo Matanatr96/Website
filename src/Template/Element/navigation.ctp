@@ -1,7 +1,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-full" role = 'navigation'>
     <div class="container">
-        <div class="navbar-brand-centered vertical-center">Anush Mattapalli</div>
+        <div class="navbar-brand-centered vertical-center"></div>
             <div class="collapse navbar-collapse" id="navbar-brand-centered">
                 <ul class="nav navbar-nav">
                     <li>
