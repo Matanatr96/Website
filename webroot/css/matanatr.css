@@ -35,20 +35,11 @@
 }
 
 
-
-
-
-.moveRight {
-    margin-left: 15%;
-}
-
 .marbot {
     margin-bottom: 0px;
 }
 
-.martop {
-    margin-top: 0px;
-}
+
 
 #mainView {
     overflow-x: hidden;
@@ -106,20 +97,52 @@
 }
 
 
+
 .size1 {
     font-size: 50px;
     line-height: 50px;
 }
 
 .size2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.size3 {
+    font-size: 33px;
+    line-height: 33px;
+}
+
+.size4 {
     font-size: 25px;
     line-height: 25px;
 }
 
-.size3 {
-    font-size: 20px;
-    line-height: 20px;
+.size5 {
+    font-size: 18px;
+    line-height: 18px;
 }
+
+.martop1{
+    margin-top: 25px;
+}
+
+.martop2{
+    margin-top: 15px;
+}
+
+.martop3{
+    margin-top: 10px;
+}
+
+.martop4{
+    margin-top: 5px;
+}
+
+.martop5 {
+    margin-top: 3px;
+}
+
 
 .grey {
     color: #494949;
@@ -142,19 +165,7 @@
     margin-left: 5%;
 }
 
-#ed1 {
-    font-size: 35px;
-    line-height: 35px;
-    color: #CCCCCC;
-}
-
-#ed2 {
-    font-size: 18px;
-    line-height: 18px;
-    margin-top: 5px;
-}
-
-#cw1, #cw2 {
+.listStyle {
     list-style: none;
 }
 
